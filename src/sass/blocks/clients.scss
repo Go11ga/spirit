@@ -1,0 +1,28 @@
+.clients {
+    padding: 100px 0;
+
+    background-color: $black;
+
+    @media (max-width: $breakpoint_xs) {
+        padding-top: 50px;
+    }
+}
+
+.clients__slider {
+    margin-top: 145px;
+}
+
+.clients__item {
+    margin: 0 auto;
+    width: 210px;
+
+    text-align: center;
+}
+
+.clients__img {
+    margin: 0 auto;
+
+    display: inline-block;
+    max-width: 80%;
+    height: auto;
+}

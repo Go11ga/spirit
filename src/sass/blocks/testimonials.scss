@@ -1,0 +1,32 @@
+.testimonials {
+    padding: 100px 0;
+
+    background-color: $black;
+
+    @media (max-width: $breakpoint_xs) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+.testimonials__text {
+    margin: 150px auto 0;
+    width: 88%;
+
+    font-size: 18px;
+    font-weight: 600;
+    color: $white;
+
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.testimonials__author {
+    margin-top: 47px;
+
+    font-size: 18px;
+    font-weight: 600;
+    color: $grey;
+
+    text-align: center;
+}

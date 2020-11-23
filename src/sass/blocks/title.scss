@@ -1,0 +1,37 @@
+.title {
+    margin: 0;
+
+    font-size: 44px;
+    font-weight: 300;
+    color: $white;
+    line-height: 1;
+
+    text-transform: uppercase;
+    text-align: center;
+
+    position: relative;
+
+    &:before {
+        @include line;
+
+        width: 100px;
+
+        bottom: -36px;
+    }
+
+    &:after {
+        @include line;
+
+        width: 70px;
+
+        bottom: -50px;
+    }
+}
+
+.title--black {
+    color: $black;
+}
+
+.title__bold {
+    font-weight: 600;
+}

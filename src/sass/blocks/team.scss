@@ -1,0 +1,67 @@
+.team {
+    padding-top: 90px;
+    padding-bottom: 82px;
+
+    background-color: $black;
+
+    @media (max-width: $breakpoint_xs) {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+.team__slider {
+    margin-top: 140px;
+}
+
+.team__item {
+    width: 250px;
+
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.team__img {
+    margin: 0 auto;
+
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.team__title {
+    margin-top: 20px;
+
+    font-size: 20px;
+    font-weight: 700;
+    color: $white;
+}
+
+.team__suptitle {
+    margin-top: 4px;
+
+    font-size: 16px;
+    color: $white;
+}
+
+.team__text {
+    margin-top: 32px;
+
+    font-size: 14px;
+    color: $white;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

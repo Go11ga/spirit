@@ -1,0 +1,40 @@
+@mixin burger() {
+    display: block;
+    width: 30px;
+    height: 4px;
+
+    background-color: $white;
+
+    position: absolute;
+    left: 0;
+    z-index: 1;
+
+    transition: background-color .1s linear;
+}
+
+@mixin line() {
+    display: block;
+    content: '';
+    height: 4px;
+
+    background-color: $yellow;
+
+    position: absolute;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+}
+
+@mixin cross() {
+    display: block;
+    content: '';
+
+    background-color: $yellow;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+
+    transform: translate(-50%,-50%);
+}

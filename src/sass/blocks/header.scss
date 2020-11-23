@@ -1,0 +1,59 @@
+.header {
+    width: 100%;
+    height: 15vh;
+
+    background-color: $black;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+    @media (max-width: $breakpoint_md) {
+        height: 10vh;
+    }
+}
+
+.header--height {
+    height: auto;
+}
+
+.header--active {
+    box-shadow: 0 3px 10px #fcac45;
+}
+
+.header__inner {
+    padding: 55px 0 20px 0;
+
+    @media (max-width: $breakpoint_md) {
+        padding-top: 20px;
+    }
+}
+
+.row--header {
+    align-items: center;
+
+    position: relative;
+
+    @media (max-width: $breakpoint_md) {
+        align-items: flex-start;
+    }
+
+}
+
+.header__logo {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: $white;
+
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition: color .1s linear;
+
+    &:hover {
+        color: $yellow;
+    }
+}

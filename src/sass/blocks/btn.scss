@@ -1,0 +1,23 @@
+.btn {
+    padding: 10px 60px;
+
+    font-size: 16px;
+    font-weight: 600;
+    color: $white;
+
+    text-transform: uppercase;
+    cursor: pointer;
+
+    border: 0;
+    background-color: $yellow;
+
+    transition: background-color .1s linear;
+
+    &:hover {
+        background-color: darken($yellow, 10);
+    }
+
+    &:focus {
+        outline: 0;
+    }
+}
